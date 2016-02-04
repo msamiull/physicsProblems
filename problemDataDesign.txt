@@ -16,4 +16,4 @@ Each problem must have the following fields, some of which may be empty (NULL).
 10. ratings by student; NULL ...; how many rated; distribution of ratings; a la amazon.
 11. ratings by profs; NULL ...
 12. who created this problem and when
-13. who modified this problem and when; running tally
+13. who modified this problem and when;
