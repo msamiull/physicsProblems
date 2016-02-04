@@ -1,0 +1,19 @@
+Feb 4, 2016 
+Design the content of the database of 
+
+The most basic unit we identified was part p of probem N.
+
+Each problem must have the following fields, some of which may be empty (NULL).
+1. key identifier may have the following format: chapter.section.exercise.part
+2. chapter number
+3. section number
+4. problem statement
+5. key words [do we read it off from the problem? probably not, since that would mean the problem cannot be an image. the ket words will be required field from the profs.]
+6. answer of this part; if does not exit should have NULL value
+7. hint for this part; NULL if hint does not exist
+8. solution for this part; NULL if does not exist
+9. usage data; NULL ...
+10. ratings by student; NULL ...; how many rated; distribution of ratings; a la amazon.
+11. ratings by profs; NULL ...
+12. who created this problem and when
+13. who modified this problem and when; running tally
